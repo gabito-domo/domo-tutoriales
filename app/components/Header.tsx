@@ -11,10 +11,10 @@ export const Header = () => {
 			/>
 
 			<a href="">
-				<h3 className="font-sans ">HOME</h3>
+				<h3 className="font-sans text-white ">HOME</h3>
 			</a>
 			<a href="">
-				<h3 className="font-sans">CONTACTANOS</h3>
+				<h3 className="font-sans text-white">CONTACTANOS</h3>
 			</a>
 		</div>
 	);

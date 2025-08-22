@@ -80,13 +80,13 @@ export const Tutorials = () => {
 
 	return (
 		<>
-			<div className="flex flex-col items-center space-y-8 w-full">
+			<div className="flex flex-col items-center space-y-8 w-full mb-10">
 				<h1 className="text-2xl font-bold mb-4">Video-Tutoriales</h1>
 				{tutorials.map((tutorial) => (
 					<div
 						key={tutorial.id}
 						id={`video-${tutorial.id}`}
-						className="border-white/50 backdrop-blur-xl w-full p-6 border rounded-3xl shadow-lg"
+						className="bg-white/30 border-white/50 backdrop-blur-xl w-full p-6 border rounded-3xl shadow-lg"
 					>
 						<h2 className="text-xl font-semibold mb-2">{tutorial.title}</h2>
 						<p className="mb-4">{tutorial.description}</p>

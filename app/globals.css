@@ -13,7 +13,7 @@
 	:root {
 		--background: #1c1c1e; /* A dark gray */
 		--foreground: #f0f0f4; /* A light, soft gray for text */
-		--accent: #0a84ff; /* A slightly different blue for dark mode */
+		--accent: #22aeff; /* A slightly different blue for dark mode */
 	}
 }
 
